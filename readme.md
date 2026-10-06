@@ -46,14 +46,14 @@ Firefly automatically detects whether a desktop is available. The **web interfac
 - Advanced algorithms for [**smooth colors transitions**](https://github.com/sblantipodi/firefly_luciferin/wiki/Smoothing-color-transitions) and [**color correction**](https://github.com/sblantipodi/firefly_luciferin/wiki/Color-Grading-(Hue-Saturation-and-Lightness-tuning)).  
 - [**Adaptive gamma**](https://github.com/sblantipodi/firefly_luciferin/wiki/Color-Temperature-and-White-Balance#adaptive-gamma-correction)
   provides significantly improved color accuracy on both **SDR** and **HDR** content.
-- HDR to SDR tone mapping: adapts HDR color and brightness to your LEDs.
+- **HDR to SDR tone mapping:** adapts HDR color and brightness to your LEDs.
 - **Remote control:** use Firefly from phone or desktop, and Glow Worm via its built in web interface.
-- **AI control through MCP:** ask a compatible AI assistant to control Luciferin using natural language. [MCP and AI agents](https://github.com/sblantipodi/firefly_luciferin/wiki/MCP-and-AI-Agents).
-- **Home automation:** integrate with Home Assistant and MQTT; neither is required for a basic setup. [Home Assistant integration](https://github.com/sblantipodi/firefly_luciferin/wiki/Home-Automation-configs).
+- **AI control through MCP:** ask a compatible AI assistant to control Luciferin using natural language.  
+- **Home automation:** integrate with [Home Assistant](https://github.com/sblantipodi/firefly_luciferin/wiki/Home-Automation-configs) and MQTT; neither is required for a basic setup.  
 - [**Multi monitor**](https://github.com/sblantipodi/firefly_luciferin/wiki/Multi-monitor-support) support with **single or multiple instances**.
 - [**Surround lighting**](https://github.com/sblantipodi/firefly_luciferin/wiki/Surround-lighting-with-satellites) with
   satellites.
-- [**Web browser firmware installer**](https://sblantipodi.github.io/glow_worm_luciferin/) and [**Web Interface**](https://github.com/sblantipodi/firefly_luciferin/wiki/Remote-Access#luciferin-web-interface).
+- [**Web browser firmware installer**](https://sblantipodi.github.io/glow_worm_luciferin/).  
 - [**Programmable firmware**](https://github.com/sblantipodi/firefly_luciferin/wiki/Supported-GPIO-and-Baud-Rate), change your microcontroller's settings on the fly.
 - [**One click updates**](https://github.com/sblantipodi/firefly_luciferin/wiki/Luciferin-update-management) for both
   the PC software and firmware, keeping your entire setup up to date effortlessly.
@@ -62,7 +62,7 @@ Firefly automatically detects whether a desktop is available. The **web interfac
 - **Made from a gamer, for gamers**. No added lag, stutter free.
 - Multi platform, [**Windows**](https://github.com/sblantipodi/firefly_luciferin/wiki/Installers-and-binaries) and [
   **Linux**](https://github.com/sblantipodi/firefly_luciferin/wiki/Linux-support) ready, supporting **x86 and ARM**
-  architectures. macOS is coming when it's ready.
+  architectures.  
 - Prefer a DIY build over a prebuilt board? Grab your soldering iron and use [**Luciferin’s official PCB**](https://github.com/sblantipodi/firefly_luciferin/wiki/Ready-to-print-PCB), without designing your own.
 - Have a question? [**Get answered on the community**](https://discord.gg/aXf9jeN).
 
