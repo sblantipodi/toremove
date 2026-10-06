@@ -40,20 +40,22 @@ Click the image to watch Luciferin in action.
 
 Firefly automatically detects whether a desktop is available. The **web interface is always available**, and a **dedicated desktop interface** is available when a desktop environment is present. On a Raspberry Pi with limited RAM, an installation without a desktop leaves more memory available for capture and processing.
 
+![Luciferin connection overview: direct PC screen capture, HDMI capture through a splitter and USB card, and optional satellite lighting](data/img/luciferin_schema.png)
+
 ## Key features
 
 - **Hardware accelerated processing:** Best in class performance combined with **ultra low CPU/GPU usage**.
-- Advanced algorithms for [**smooth colors transitions**](https://github.com/sblantipodi/firefly_luciferin/wiki/Smoothing-color-transitions) and [**color correction**](https://github.com/sblantipodi/firefly_luciferin/wiki/Color-Grading-(Hue-Saturation-and-Lightness-tuning)).  
+- Advanced algorithms for [**smooth colors transitions**](https://github.com/sblantipodi/firefly_luciferin/wiki/Smoothing-color-transitions) and [**color correction**](https://github.com/sblantipodi/firefly_luciferin/wiki/Color-Grading-(Hue-Saturation-and-Lightness-tuning)).
 - [**Adaptive gamma**](https://github.com/sblantipodi/firefly_luciferin/wiki/Color-Temperature-and-White-Balance#adaptive-gamma-correction)
   provides significantly improved color accuracy on both **SDR** and **HDR** content.
 - **HDR to SDR tone mapping:** adapts HDR color and brightness to your LEDs.
 - **Remote control:** use Firefly from phone or desktop, and Glow Worm via its built in web interface.
-- **AI control through MCP:** ask a compatible AI assistant to control Luciferin using natural language.  
-- **Home automation:** integrate with [Home Assistant](https://github.com/sblantipodi/firefly_luciferin/wiki/Home-Automation-configs) and MQTT; neither is required for a basic setup.  
+- **AI control through MCP:** ask a compatible AI assistant to control Luciferin using natural language.
+- **Home automation:** integrate with [Home Assistant](https://github.com/sblantipodi/firefly_luciferin/wiki/Home-Automation-configs) and MQTT; neither is required for a basic setup.
 - [**Multi monitor**](https://github.com/sblantipodi/firefly_luciferin/wiki/Multi-monitor-support) support with **single or multiple instances**.
 - [**Surround lighting**](https://github.com/sblantipodi/firefly_luciferin/wiki/Surround-lighting-with-satellites) with
   satellites.
-- [**Web browser firmware installer**](https://sblantipodi.github.io/glow_worm_luciferin/).  
+- [**Web browser firmware installer**](https://sblantipodi.github.io/glow_worm_luciferin/).
 - [**Programmable firmware**](https://github.com/sblantipodi/firefly_luciferin/wiki/Supported-GPIO-and-Baud-Rate), change your microcontroller's settings on the fly.
 - [**One click updates**](https://github.com/sblantipodi/firefly_luciferin/wiki/Luciferin-update-management) for both
   the PC software and firmware, keeping your entire setup up to date effortlessly.
@@ -62,7 +64,7 @@ Firefly automatically detects whether a desktop is available. The **web interfac
 - **Made from a gamer, for gamers**. No added lag, stutter free.
 - Multi platform, [**Windows**](https://github.com/sblantipodi/firefly_luciferin/wiki/Installers-and-binaries) and [
   **Linux**](https://github.com/sblantipodi/firefly_luciferin/wiki/Linux-support) ready, supporting **x86 and ARM**
-  architectures.  
+  architectures.
 - Prefer a DIY build over a prebuilt board? Grab your soldering iron and use [**Luciferin’s official PCB**](https://github.com/sblantipodi/firefly_luciferin/wiki/Ready-to-print-PCB), without designing your own.
 - Have a question? [**Get answered on the community**](https://discord.gg/aXf9jeN).
 
@@ -73,14 +75,11 @@ Linux [here](https://github.com/sblantipodi/firefly_luciferin/releases)**.
 The Linux version is also available on **[Flathub](https://flathub.org/apps/org.dpsoftware.FireflyLuciferin)**
 and **[Snap Store](https://snapcraft.io/fireflyluciferin)**.
 
-This software can run on any Desktop PC using **Windows or Linux**. MacOS support will be added later.
-
 **Glow Worm Luciferin firmware can be flashed on your device using the**  
 [![Web Installer](https://img.shields.io/website/https/sblantipodi.github.io/glow_worm_luciferin.svg?label=Web%20Installer&down_color=red&down_message=offline&up_color=4bc51d&up_message=online&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAD1BMVEUAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2FVyL%2F%2F%2F8bK2t7AAAAA3RSTlMAARYXuUDOAAAAhklEQVR42u3WyQ2AMAwEQAz9lxxCCRCuONHse2XPy3JsS98EAAAAAAAAQDpAfLywAgAADAuoJ716dw4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAwgLcCAACQH%2FB3AAAAAAAAAPoDWovrxYdjBwAAmA7QerAKAADANICnD0sBAADIDjgAPijZuQgZskEAAAAASUVORK5CYII%3D)](https://sblantipodi.github.io/glow_worm_luciferin)
 
 Why don't you build your own `Luciferin`?  
-Here's a [**Quick Start guide**](https://github.com/sblantipodi/firefly_luciferin/wiki/Quick-start)  
-
+Get up and running in minutes with the [**Quick Start guide**](https://github.com/sblantipodi/firefly_luciferin/wiki/Quick-start), or dive into the complete [**Wiki**](https://github.com/sblantipodi/firefly_luciferin/wiki) for every feature and setting.
 ## Easy to learn, easy to use
 
 Effortless setup with minimal configuration required, yet highly customizable to meet specific needs.
@@ -106,8 +105,7 @@ Effortless setup with minimal configuration required, yet highly customizable to
 <a href="https://github.com/sblantipodi/firefly_luciferin/wiki/Ready-to-print-PCB"><img width="700" src="https://github.com/sblantipodi/glow_worm_luciferin/blob/master/assets/CAD_schematics/luciferin_official_pcb/img/PCB_front.jpg?raw=true"></a>
 <a href="https://github.com/sblantipodi/firefly_luciferin/wiki/Ready-to-print-PCB"><img width="700" src="https://github.com/sblantipodi/glow_worm_luciferin/blob/master/assets/CAD_schematics/luciferin_official_pcb/img/pre_after.jpg?raw=true"></a>
 
-Prefer a DIY build over a prebuilt board?  
-Grab your soldering iron and use [**Luciferin’s official PCB**](https://github.com/sblantipodi/firefly_luciferin/wiki/Ready-to-print-PCB), without designing your own.  
+Prefer a DIY build over a prebuilt board? Grab your soldering iron and use [**Luciferin’s official PCB**](https://github.com/sblantipodi/firefly_luciferin/wiki/Ready-to-print-PCB), without designing your own.  
 Explore [compatible hardware](https://github.com/sblantipodi/firefly_luciferin/wiki/Compatible-Hardware), including **supported prebuilt ready-to-use controllers**.
 
 ## Performance and hardware acceleration
@@ -123,27 +121,25 @@ Depending on your operating system and hardware, supported technologies include
   <img width="600" alt="Capture and LED controller frame rates" src="https://raw.githubusercontent.com/sblantipodi/firefly_luciferin/master/data/img/info_screen.png">
 </p>
 
-The FPS view shows how fast Firefly captures frames and how fast your LED controller processes them. For consistent lighting, keep the capture rate within your controller’s capabilities and ensure a strong WiFi signal when streaming wirelessly.
+The FPS view shows how fast Firefly captures frames and how fast your LED controller processes them. For consistent lighting, keep the capture rate within your controller’s capabilities and ensure a strong Wi-Fi signal when streaming wirelessly.
 
 Explore [capture performance and benchmarks](https://github.com/sblantipodi/firefly_luciferin/wiki/Very-fast-capture).
 
 
-## Luciferin Web Interface
-Glow Worm Luciferin FULL firmware exposes a `Web Interface` to control your lights from your browser without the needs of the Firefly Luciferin PC client.
+## Luciferin Web Interfaces
+
+Both Luciferin components expose a **Web Interface**, so you get full control of your lights from any browser, including your phone.
+
+- **Glow Worm Luciferin** (FULL firmware): control your lights straight from the browser, with no need for the Firefly Luciferin desktop client.
+- **Firefly Luciferin**: besides the desktop app, it now offers its own web interface for full control from your phone or any browser.
 
 <img align="center" width="750" src="https://github.com/sblantipodi/glow_worm_luciferin/blob/master/assets/img/web_interface.jpg?raw=true">
 
-## Home Assistant Mobile Client Screenshots  
-Glow Worm Luciferin firmware can be easily integrated in [Home Assistant](https://github.com/sblantipodi/firefly_luciferin/wiki/Home-Automation-configs).  
+## Home Assistant integration  
+Luciferin can be easily integrated in [Home Assistant](https://github.com/sblantipodi/firefly_luciferin/wiki/Home-Automation-configs).  
 <br>
-<img align="center" width="800" src="https://github.com/sblantipodi/firefly_luciferin/blob/master/data/img/ha_luciferin.jpg?raw=true">  
-
-## Contribute
-You can contribute to Luciferin by:
-- Providing Pull Requests (Features, Proof of Concepts, Language files or Fixes)
-- Testing new released features and report issues
-- Contributing missing documentation for features and devices
-- With a donation [![PayPal](https://img.shields.io/badge/donate-PayPal-blue)](https://www.paypal.com/donate?hosted_button_id=ZEJM8ZLQW5E4A)
+<img align="center" width="800" src="https://github.com/sblantipodi/firefly_luciferin/blob/master/data/img/ha_luciferin.jpg?raw=true">
 
 ## Credits
-- Davide Perini
+- Davide Perini  
+- **A note on AI:** Luciferin started years before the AI boom. Its development now *also* leverages locally run AI models as a tool, but the architecture, design, review and a good part of the code remain entirely human.
