@@ -43,12 +43,11 @@ Firefly automatically detects whether a desktop is available. The **web interfac
 ## Key features
 
 - **Hardware accelerated processing:** Best in class performance combined with **ultra low CPU/GPU usage**.
-- Advanced algorithms for [**smooth colors transitions**](https://github.com/sblantipodi/firefly_luciferin/wiki/Smoothing-color-transitions) and [**color correction**](https://github.com/sblantipodi/firefly_luciferin/wiki/Color-Grading-(Hue-Saturation-and-Lightness-tuning)). Seeing is believing.
-- [**Adaptive
-  gamma**](https://github.com/sblantipodi/firefly_luciferin/wiki/Color-Temperature-and-White-Balance#adaptive-gamma-correction)
+- Advanced algorithms for [**smooth colors transitions**](https://github.com/sblantipodi/firefly_luciferin/wiki/Smoothing-color-transitions) and [**color correction**](https://github.com/sblantipodi/firefly_luciferin/wiki/Color-Grading-(Hue-Saturation-and-Lightness-tuning)).  
+- [**Adaptive gamma**](https://github.com/sblantipodi/firefly_luciferin/wiki/Color-Temperature-and-White-Balance#adaptive-gamma-correction)
   provides significantly improved color accuracy on both **SDR** and **HDR** content.
 - HDR to SDR tone mapping: adapts HDR color and brightness to your LEDs.
-- **Web and desktop control:** control Firefly from your phone or desktop, and Glow Worm through its own web interface. R
+- **Remote control:** use Firefly from phone or desktop, and Glow Worm via its built in web interface.
 - **AI control through MCP:** ask a compatible AI assistant to control Luciferin using natural language. [MCP and AI agents](https://github.com/sblantipodi/firefly_luciferin/wiki/MCP-and-AI-Agents).
 - **Home automation:** integrate with Home Assistant and MQTT; neither is required for a basic setup. [Home Assistant integration](https://github.com/sblantipodi/firefly_luciferin/wiki/Home-Automation-configs).
 - [**Multi monitor**](https://github.com/sblantipodi/firefly_luciferin/wiki/Multi-monitor-support) support with **single or multiple instances**.
