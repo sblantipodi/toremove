@@ -106,7 +106,8 @@ Effortless setup with minimal configuration required, yet highly customizable to
 <a href="https://github.com/sblantipodi/firefly_luciferin/wiki/Ready-to-print-PCB"><img width="700" src="https://github.com/sblantipodi/glow_worm_luciferin/blob/master/assets/CAD_schematics/luciferin_official_pcb/img/PCB_front.jpg?raw=true"></a>
 <a href="https://github.com/sblantipodi/firefly_luciferin/wiki/Ready-to-print-PCB"><img width="700" src="https://github.com/sblantipodi/glow_worm_luciferin/blob/master/assets/CAD_schematics/luciferin_official_pcb/img/pre_after.jpg?raw=true"></a>
 
-Prefer a DIY build over a prebuilt board? Grab your soldering iron and use [**Luciferin’s official PCB**](https://github.com/sblantipodi/firefly_luciferin/wiki/Ready-to-print-PCB), without designing your own.  
+Prefer a DIY build over a prebuilt board?  
+Grab your soldering iron and use [**Luciferin’s official PCB**](https://github.com/sblantipodi/firefly_luciferin/wiki/Ready-to-print-PCB), without designing your own.  
 Explore [compatible hardware](https://github.com/sblantipodi/firefly_luciferin/wiki/Compatible-Hardware), including **supported prebuilt ready-to-use controllers**.
 
 ## Performance and hardware acceleration
@@ -116,13 +117,13 @@ Luciferin is deeply integrated with your operating system through a series of bi
 This guarantees maximum efficiency and compatibility.
 
 Depending on your operating system and hardware, supported technologies include  
-**DirectX 12, OpenGL, Vulkan, NVIDIA CUDA, Intel GPU acceleration, AMD HIP, SIMD (AVX, AVX2 and AVX512)**.
+**DirectX 12, OpenGL, Vulkan, Nvidia CUDA, Intel GPU acceleration, AMD HIP, SIMD (AVX, AVX2 and AVX512)**.
 
 <p align="center">
   <img width="600" alt="Capture and LED controller frame rates" src="https://raw.githubusercontent.com/sblantipodi/firefly_luciferin/master/data/img/info_screen.png">
 </p>
 
-The FPS view shows how fast Firefly captures frames and how fast your LED controller processes them. For consistent lighting, keep the capture rate within your controller’s capabilities and ensure a strong Wi-Fi signal when streaming wirelessly.
+The FPS view shows how fast Firefly captures frames and how fast your LED controller processes them. For consistent lighting, keep the capture rate within your controller’s capabilities and ensure a strong WiFi signal when streaming wirelessly.
 
 Explore [capture performance and benchmarks](https://github.com/sblantipodi/firefly_luciferin/wiki/Very-fast-capture).
 
